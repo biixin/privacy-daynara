@@ -4,21 +4,83 @@ const AVATAR_URL = "https://yasmin-botpro.s3.us-east-2.amazonaws.com/foto+normal
 
 const demoItems = [
   {
-    id: "img-6",
+    id: "img-1",
     userName: "daynarasilva",
     handle: "@daynarasilva",
     minutesAgo: 45,
     mediaType: "video",
     src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/1-c.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb01.png",
+    text: "Conteúdo exclusivo 🔒",
+  },
+  {
+    id: "img-2",
+    userName: "daynarasilva",
+    handle: "@daynarasilva",
+    minutesAgo: 48,
+    mediaType: "video",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/2.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb2.png",
+    text: "Conteúdo exclusivo 🔒",
+  },
+  {
+    id: "img-3",
+    userName: "daynarasilva",
+    handle: "@daynarasilva",
+    minutesAgo: 55,
+    mediaType: "video",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/3.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb3.png",
+    text: "Conteúdo exclusivo 🔒",
+  },
+  {
+    id: "img-4",
+    userName: "daynarasilva",
+    handle: "@daynarasilva",
+    minutesAgo: 55,
+    mediaType: "video",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/5.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb5.png",
+    text: "Conteúdo exclusivo 🔒",
+  },
+  {
+    id: "img-5",
+    userName: "daynarasilva",
+    handle: "@daynarasilva",
+    minutesAgo: 55,
+    mediaType: "video",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/11.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb11.png",
+    text: "Conteúdo exclusivo 🔒",
+  },
+  {
+    id: "img-6",
+    userName: "daynarasilva",
+    handle: "@daynarasilva",
+    minutesAgo: 55,
+    mediaType: "video",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/12.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb12.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
     id: "img-7",
     userName: "daynarasilva",
     handle: "@daynarasilva",
-    minutesAgo: 48,
+    minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/17.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/16.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb16.png",
+    text: "Conteúdo exclusivo 🔒",
+  },
+  {
+    id: "img-8",
+    userName: "daynarasilva",
+    handle: "@daynarasilva",
+    minutesAgo: 55,
+    mediaType: "video",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/17.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb17.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
@@ -27,70 +89,68 @@ const demoItems = [
     handle: "@daynarasilva",
     minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/28.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/18.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb18.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
-    id: "img-9",
+    id: "img-10",
     userName: "daynarasilva",
     handle: "@daynarasilva",
     minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/18.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/20.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb20.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
-    id: "img-9",
+    id: "img-11",
     userName: "daynarasilva",
     handle: "@daynarasilva",
     minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/20.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/26.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb26.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
-    id: "img-9",
+    id: "img-12",
     userName: "daynarasilva",
     handle: "@daynarasilva",
     minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/29.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/27.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb27.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
-    id: "img-9",
+    id: "img-13",
     userName: "daynarasilva",
     handle: "@daynarasilva",
     minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/22.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/28.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb28.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
-    id: "img-9",
+    id: "img-14",
     userName: "daynarasilva",
     handle: "@daynarasilva",
     minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/27.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/29.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb29.png",
     text: "Conteúdo exclusivo 🔒",
   },
   {
-    id: "img-9",
+    id: "img-15",
     userName: "daynarasilva",
     handle: "@daynarasilva",
     minutesAgo: 55,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/11.mp4",
-    text: "Conteúdo exclusivo 🔒",
-  },
-  {
-    id: "img-9",
-    userName: "daynarasilva",
-    handle: "@daynarasilva",
-    minutesAgo: 55,
-    mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/12.mp4",
+    src: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/30.mp4",
+    thumb: "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/thumb30.png",
     text: "Conteúdo exclusivo 🔒",
   }
 
@@ -147,6 +207,7 @@ function createCard(item, index) {
     "group bg-gradient-to-br from-white/8 to-white/2 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl hover:scale-102 transition-all duration-500 hover:border-white/20 animate-in"
   card.style.animationDelay = index * 100 + "ms"
 
+  // ALTERAÇÃO: Adicionar thumbnail para vídeos
   card.innerHTML = `
         <header class="flex items-center gap-4 p-5 bg-gradient-to-r from-white/5 to-transparent">
             <div class="w-12 h-12 rounded-2xl border-2 border-white/20 shadow-lg relative overflow-hidden bg-cover bg-center" style="background-image: url('${AVATAR_URL}')">
@@ -169,13 +230,20 @@ function createCard(item, index) {
             ${
               item.mediaType === "image"
                 ? `<img src="${item.src}" alt="Post de ${item.userName}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">`
-                : `<video src="${item.src}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" preload="metadata" playsinline></video>
+                : `
+                 <!-- Thumbnail do vídeo -->
+                 <img src="${item.thumb}" alt="Thumbnail do vídeo" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                 
+                 <!-- Botão de play overlay -->
                  <div class="absolute inset-0 flex items-center justify-center">
                      <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/30 shadow-2xl group-hover:scale-110 transition-transform duration-300">
-                         <svg class="w-8 h-8 text-white ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1a3 3 0 000-6h-1m0 6V4m0 6h6m-7 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                         </svg>
+                         <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M15.4137 10.941C16.1954 11.4026 16.1954 12.5974 15.4137 13.059L10.6935 15.8458C9.93371 16.2944 9 15.7105 9 14.7868L9 9.21316C9 8.28947 9.93371 7.70561 10.6935 8.15419L15.4137 10.941Z" stroke="#ffffff" stroke-width="1.5"></path> </g></svg>
                      </div>
+                 </div>
+                 
+                 <!-- Badge de vídeo -->
+                 <div class="absolute bottom-3 right-3 bg-black/70 text-white text-xs px-2 py-1 rounded-full">
+                     ▶️ Vídeo
                  </div>`
             }
         </div>
@@ -187,6 +255,14 @@ function createCard(item, index) {
             </div>
         </footer>
     `
+
+  // ALTERAÇÃO: Adicionar data-src para vídeos
+  if (item.mediaType === "video") {
+    const mediaElement = card.querySelector(".media-clickable")
+    if (mediaElement) {
+      mediaElement.setAttribute("data-src", item.src)
+    }
+  }
 
   // 🔥 ADICIONAR TOUCH EVENTS PARA DETECTAR SCROLL VS CLICK
   const mediaElement = card.querySelector(".media-clickable")
@@ -352,7 +428,7 @@ function SIMULAR_VIDEOCHAMADA() {
       <div class="text-sm text-gray-400 mt-2">Carregando vídeo completo</div>
     `
 
-    mainVideo.src = "https://yasmin-botpro.s3.us-east-2.amazonaws.com/chamada+7s.mp4"
+    mainVideo.src = "https://yasmin-privacy.s3.sa-east-1.amazonaws.com/chamada+7s.mp4"
     mainVideo.preload = "auto"
 
     // Aguardar carregamento completo do vídeo
@@ -561,6 +637,15 @@ function FECHAR_MODAL() {
 
   const modal = document.getElementById("media-modal")
   if (modal) {
+    // ALTERAÇÃO: Pausar o vídeo e remover src para liberar recursos
+    const video = modal.querySelector("video")
+    if (video) {
+      video.pause()
+      video.currentTime = 0
+      video.removeAttribute("src") // Remover src para liberar recursos
+      video.load() // Forçar descarregamento
+    }
+    
     modal.style.display = "none"
   }
 }
@@ -580,13 +665,22 @@ function ABRIR_MODAL(itemId) {
     modalContent.innerHTML = ""
 
     if (item.mediaType === "video") {
+      // Criar vídeo apenas quando o modal for aberto
       const video = document.createElement("video")
-      video.src = item.src
       video.controls = true
       video.autoplay = true
       video.style.maxWidth = "100%"
       video.style.maxHeight = "100%"
       video.setAttribute("playsinline", "true")
+      
+      // Encontrar o elemento que contém o data-src
+      const cardElement = document.querySelector(`[data-item-id="${itemId}"]`)
+      if (cardElement) {
+        const videoSrc = cardElement.getAttribute("data-src") || item.src
+        video.src = videoSrc
+        console.log("🎥 Carregando vídeo:", videoSrc)
+      }
+      
       modalContent.appendChild(video)
     } else {
       const img = document.createElement("img")
@@ -599,6 +693,7 @@ function ABRIR_MODAL(itemId) {
     modal.style.display = "flex"
   }
 }
+
 
 window.addEventListener("popstate", (event) => {
   console.log("🔙 Botão voltar pressionado!", event.state)
@@ -658,3 +753,25 @@ function CARREGAR_MURAL() {
 
   populateFeed()
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const previewVideo = document.getElementById('preview-video');
+    
+    if (previewVideo) {
+        // Carregar o vídeo apenas quando o usuário interagir
+        previewVideo.addEventListener('click', function() {
+            if (!this.src && this.getAttribute('data-src')) {
+                this.src = this.getAttribute('data-src');
+                console.log('🎥 Carregando vídeo preview:', this.src);
+            }
+        });
+        
+        // Também carregar quando tentar dar play
+        previewVideo.addEventListener('play', function() {
+            if (!this.src && this.getAttribute('data-src')) {
+                this.src = this.getAttribute('data-src');
+                console.log('🎥 Carregando vídeo preview para play:', this.src);
+            }
+        });
+    }
+});
