@@ -9,7 +9,7 @@ const demoItems = [
     handle: "@daynarasilva",
     minutesAgo: 45,
     mediaType: "video",
-    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/14.mp4",
+    src: "https://yasmin-botpro.s3.us-east-2.amazonaws.com/1-c.mp44",
     text: "Conteúdo exclusivo 🔒",
   },
   {
