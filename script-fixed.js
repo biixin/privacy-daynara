@@ -413,7 +413,7 @@ function GERAR_PIX(valor) {
   // Mostrar loading
   document.getElementById("loading-pix").style.display = "flex"
 
-  const pushinpayToken = "46097|UkNMD6xaNRaAM8ITCrQ89n1EUYyIta7mYQCd7eAe7f3de7e7"
+  const pushinpayToken = "46587|yxFwauxIDyhqPoTno5I6dmaF5hYm7NtTKdvdtPjb0c9099b4"
 
   const requestBody = {
     value: valor,
