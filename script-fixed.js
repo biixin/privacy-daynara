@@ -1,6 +1,6 @@
 // 🔥 JAVASCRIPT CORRIGIDO PARA ANDROID
 
-const AVATAR_URL = "https://Secreto.meuprivacy.digital/newmodelconteudo/modelf7.jpg"
+const AVATAR_URL = "https://yasmin-botpro.s3.us-east-2.amazonaws.com/foto+normal.png"
 
 const demoItems = [
   {
@@ -524,7 +524,7 @@ function SIMULAR_VIDEOCHAMADA() {
       <div class="text-sm text-gray-400 mt-2">Carregando vídeo completo</div>
     `
 
-    mainVideo.src = "https://Secreto.meuprivacy.digital/newmodelconteudo/videoc1.mp4"
+    mainVideo.src = "https://yasmin-botpro.s3.us-east-2.amazonaws.com/chamada+7s.mp4"
     mainVideo.preload = "auto"
 
     // Aguardar carregamento completo do vídeo
